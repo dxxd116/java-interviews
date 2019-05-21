@@ -13,16 +13,8 @@ public class Node {
 
     //Reverse the node using constant space and linear time proportional to the length of the single-linked list
     public Node reverseNode(){
-        Node current=this;
-        Node next=null;
-        Node tmp=null;
-        while (current!=null){
-            next=current.next;
-            current.next=tmp;
-            tmp=current;
-            current=next;
-        }
-        return tmp;
+
+        return null;
     }
 
     public static void printNode(Node a){
