@@ -17,13 +17,19 @@ public class Node {
         return null;
     }
 
+    public Node(){
+        this("New Node");
+    }
+
+
+    //Print Node in the format of 0->1->2->3
     public static void printNode(Node a){
         while (a!=null){
             System.out.println(a.value );
             a=a.next;
         }
-
     }
+
     public List<Node> getList(){
         List<Node> list=new ArrayList<Node>();
         Node a=this;
