@@ -38,7 +38,15 @@ public class Node {
             a=a.next;
         }
         return list;
+
+
+
     }
 
 
 }
+
+
+
+
+

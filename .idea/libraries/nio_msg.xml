@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="nio-msg">
+    <CLASSES>
+      <root url="jar://D:/go/src/tsp_proto/build/java/gen/nio-msg.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
